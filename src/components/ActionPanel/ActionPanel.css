@@ -1,0 +1,27 @@
+.actionPanel {
+  padding: 1em;
+}
+
+.actionPanel button {
+  padding: 1em;
+  margin: 5px;
+  font-size: 1.2em;
+  background-color: #61dafb;
+  border: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.actionPanel button:hover,
+.actionPanel button:focus {
+  background-color: #61dafbaa;
+}
+
+.actionPanel button:focus {
+  box-shadow: 0 0 0 2px blue;
+  border: none;
+}
+
+.actionPanel button:active {
+  background-color: darkblue;
+  color: white;
+}
