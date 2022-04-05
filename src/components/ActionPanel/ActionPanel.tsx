@@ -32,8 +32,8 @@ const ActionPanel = () => {
     <div className='actionPanel'>
       <button onClick={handleIncrement}>🔼 Buy</button>
       <button onClick={handleDecrement}>🔽 Sell</button>
-      <button onClick={handleReset}>🔁 Reset</button>
       <button onClick={handleChangeFruit}>🧺 Change fruit</button>
+      <button onClick={handleReset}>🔁 Reset</button>
     </div>
   );
 };

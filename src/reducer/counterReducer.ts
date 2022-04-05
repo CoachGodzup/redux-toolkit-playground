@@ -22,7 +22,7 @@ export const counterReducer: Reducer = createReducer(initialState, (builder) =>
     }))
     .addCase(decrementCounter, (state, { payload }) => ({
       ...state,
-      counter: state.counter - payload,
+      counter: state.counter > 0 ? state.counter - payload : 0,
     }))
     .addCase(resetCounter, (state, { payload }) => ({ ...initialState }))
 );
